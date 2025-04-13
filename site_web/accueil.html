@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mes Exercices</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .dropdown {
+      margin: 50px auto;
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-button {
+      background-color: #4a90e2;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 300px;
+      max-height: 400px;
+      overflow-y: auto;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .dropdown-content a {
+      color: #4a90e2;
+      padding: 12px 20px;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid #eee;
+      transition: background-color 0.3s;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    html, body {
+    height: 100%; /* Assure que le corps occupe toute la hauteur de la fenêtre */
+    margin: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer {
+      margin-top: auto;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue sur mon site web !</h1>
+    <p>Voici la liste des 18 exercices réalisés :</p>
+  </header>
+
+  <div class="dropdown">
+    <button class="dropdown-button">Voir les exercices ▼</button>
+    <div class="dropdown-content">
+      <a href="ex01.html">01 – hello world typescript</a>
+      <a href="ex02/ex02.html">02 – hello astro typescript</a>
+      <a href="ex03/ex03.html">03 – modules</a>
+      <a href="ex04/ex04.html">04 – client or server side</a>
+      <a href="ex05/ex05.html">05 – html css punto</a>
+      <a href="ex06/ex06.html">06 – CSS flexbox</a>
+      <a href="ex07/ex07.html">07 – fat arrow</a>
+      <a href="ex08/ex08.html">08 – map reduce filter find foreach</a>
+      <a href="ex09/ex09.html">09 – objects</a>
+      <a href="ex10/ex10.html">10 – json</a>
+      <a href="ex11/ex11.html">11 – generics</a>
+      <a href="ex12/ex12.html">12 – exceptions</a>
+      <a href="ex13/ex13.html">13 – async await</a>
+      <a href="ex14/ex14.html">14 – fetch</a>
+      <a href="ex15/ex15.html">15 – cors</a>
+      <a href="ex16/ex16.html">16 – http CRUD</a>
+      <a href="ex17/ex17.html">17 – forms</a>
+      <a href="ex18/ex18.html">18 – web components</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 - Charlotte Poupat
+  </footer>
+
+</body>
+</html>
+

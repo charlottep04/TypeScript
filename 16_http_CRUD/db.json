@@ -1,0 +1,158 @@
+{
+  "restaurants": [
+    {
+      "id": "a45d",
+      "name": "Le Bistrot du Rire",
+      "description": "Un restaurant où le rire est au menu",
+      "categoryIds": [
+        "71b2"
+      ]
+    },
+    {
+      "id": "12b3",
+      "name": "Le Grill Super Marrant",
+      "description": "Des grillades qui vous feront sourire",
+      "categoryIds": []
+    },
+    {
+      "id": "55fa",
+      "name": "La Crêperie Rigolote",
+      "description": "Des crêpes qui vous feront éclater de rire",
+      "categoryIds": [
+        "82c3",
+        "c29a"
+      ]
+    },
+    {
+      "id": "f08b",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "71b2"
+      ]
+    },
+    {
+      "id": "7cd6",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "82c3"
+      ]
+    },
+    {
+      "id": "0f32",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "71b2"
+      ]
+    },
+    {
+      "id": "50cd",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "82c3"
+      ]
+    },
+    {
+      "id": "fb73",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "71b2"
+      ]
+    },
+    {
+      "id": "cf2b",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "82c3"
+      ]
+    },
+    {
+      "id": "5446",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "71b2"
+      ]
+    },
+    {
+      "id": "6c48",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "82c3"
+      ]
+    },
+    {
+      "id": "0501",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "71b2"
+      ]
+    },
+    {
+      "id": "3689",
+      "name": "Le Restaurant de la Joie",
+      "description": "Un restaurant où la joie est au menu",
+      "categoryIds": [
+        "71b2"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "71b2",
+      "name": "Humour",
+      "restaurantIds": [
+        "a45d",
+        "55fa"
+      ]
+    },
+    {
+      "id": "c29a",
+      "name": "Pizza",
+      "restaurantIds": [
+        "55fa"
+      ]
+    },
+    {
+      "id": "34b0",
+      "name": "Grillades",
+      "restaurantIds": [
+        "12b3"
+      ]
+    }
+  ],
+  "restaurantCategories": [
+    {
+      "restaurantId": "a45d",
+      "categoryId": "71b2",
+      "id": "d98e"
+    },
+    {
+      "restaurantId": "12b3",
+      "categoryId": "34b0",
+      "id": "11e6"
+    },
+    {
+      "restaurantId": null,
+      "categoryId": "71b2",
+      "id": "0421"
+    },
+    {
+      "restaurantId": "55fa",
+      "categoryId": "71b2",
+      "id": "2080"
+    },
+    {
+      "restaurantId": "55fa",
+      "categoryId": "c29a",
+      "id": "8b31"
+    }
+  ]
+}

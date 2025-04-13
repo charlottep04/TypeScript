@@ -1,0 +1,31 @@
+---
+import { getCurrentTemperature, getCurrentCloudCover} from './moduleWeatherServerSide'
+const currentTemperature = await getCurrentTemperature() as number
+const currentCloudCover = await getCurrentCloudCover() as number
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev101 Telecom Paris</title>
+</head>
+
+<body>
+Conditions météo à Télécom Paris (48.713325087950466, 2.19976830245 )
+<br><br>
+Température actuelle : {currentTemperature}°C (calcul effectué côté serveur)
+<br><br>
+Couverture nuageuse : {currentCloudCover}% (calcul effectué côté serveur)
+<br><br>
+Vitesse du vent : <span id="windSpeed"></span> km/h (calcul effectué côté client)
+<br><br>
+Humidité relative : <span id="humidity"></span> % (calcul effectué côté client)
+
+<script src="../scripts/app.ts"></script>
+    
+</body>
+
+</html>
